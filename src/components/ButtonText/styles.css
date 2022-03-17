@@ -1,0 +1,15 @@
+.btn {
+  background: #00285f;
+  border: 0;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.btn p{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+}

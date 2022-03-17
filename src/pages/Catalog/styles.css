@@ -1,0 +1,23 @@
+.cat-content {
+    background-color: #FFFFFF;
+    padding: 20px 5px;
+}
+
+.col-sm-6, .col-lg-4, .col-xl-4, .col-xxl-4 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ctn-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+@media (min-width: 576px) {
+    .cat-content {
+        padding: 30px 20px;
+    }
+}

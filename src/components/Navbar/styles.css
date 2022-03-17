@@ -1,0 +1,47 @@
+.nav-logo-text {
+  color: #00285f;
+}
+
+.nav-logo-text:hover {
+  color: #44474b;
+}
+
+.main-menu {
+  display: flex;
+  font-size: 18px;
+  width: 150px;
+  justify-content: space-between;
+}
+
+.main-menu a:hover {
+  color: #44474b;
+}
+
+.main-menu a.active {
+  font-weight: 700;
+}
+
+.main-nav {
+  min-height: 70px;
+  padding-left: 20px;
+  background-color: #f78b00;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+}
+
+/* enconttrado em: 
+   https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-in-bootstrap-using-css */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media (min-width: 576px) {
+  .main-nav {
+    padding-left: 88px;
+  }
+}
